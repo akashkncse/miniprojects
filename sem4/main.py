@@ -10,5 +10,3 @@ import pandas as pd
 # showing the overall info about the dataset   
 df = pd.read_csv("./dataset/application_train.csv")
 print(df[["SK_ID_CURR", "CNT_FAM_MEMBERS"]])
-
-
